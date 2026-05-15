@@ -138,11 +138,11 @@ function TechOrbit() {
     }
   });
 
-  const ORBIT_RADIUS = 3.2;
+  const ORBIT_RADIUS = 4.2;
   const ORBIT_TILT = 0.42; // radians — tilt for 3D depth feel
 
   return (
-    <>
+    <group position={[0, 1.0, 0]}>
       {/* Outer orbit ring — 3 icons (React, Express, Supabase) */}
       <group ref={outerGroupRef} rotation={[ORBIT_TILT, 0, 0]}>
         {[TECH_ICONS[0], TECH_ICONS[2], TECH_ICONS[4]].map((tech, i) => {
@@ -243,7 +243,7 @@ function TechOrbit() {
           <meshBasicMaterial color="#8b5cf6" transparent opacity={0.2} />
         </mesh>
       </group>
-    </>
+    </group>
   );
 }
 
