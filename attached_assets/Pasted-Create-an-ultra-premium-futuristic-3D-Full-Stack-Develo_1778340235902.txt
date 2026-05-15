@@ -1,0 +1,401 @@
+Create an ultra-premium futuristic 3D Full Stack Developer Portfolio Website with cinematic animations, immersive scrolling, and advanced interactive visuals.
+This should NOT look like a normal portfolio template.
+The experience should feel like a combination of:
+
+futuristic SaaS website
+AAA game landing page
+Apple-level smoothness
+award-winning developer portfolio
+
+The entire website must feel alive, immersive, smooth, luxurious, and highly interactive.
+
+Use:
+
+React + Vite
+Tailwind CSS
+Framer Motion
+GSAP
+Lenis smooth scrolling
+Three.js / React Three Fiber
+React Three Drei
+Shaders / glow effects where needed
+
+Performance optimized and fully responsive.
+
+==================================================
+MAIN EXPERIENCE & DESIGN STYLE
+
+Design a futuristic dark UI with:
+
+cinematic lighting
+glowing gradients
+glassmorphism
+depth effects
+floating 3D layers
+advanced motion
+immersive transitions
+premium typography
+mouse reactive animations
+realistic shadows
+subtle particles
+smooth parallax
+
+Theme colors:
+
+black
+dark charcoal
+neon blue
+electric purple
+soft cyan glow
+
+The website should feel:
+
+modern
+elite
+expensive
+futuristic
+interactive
+smooth
+immersive
+
+Avoid anything generic.
+
+==================================================
+GLOBAL WEBSITE EFFECTS
+
+Implement:
+
+ultra smooth scrolling using Lenis
+GSAP scroll triggers
+scroll velocity animations
+layered parallax effects
+section depth transitions
+mouse-follow glow
+animated gradient backgrounds
+floating particles
+dynamic blur effects
+animated noise overlay
+reveal animations
+cinematic loading screen
+page transition animations
+custom futuristic cursor
+scroll progress indicator
+animated navbar
+floating ambient lights
+
+Scrolling must feel smooth and “3D cinematic”.
+
+When scrolling:
+
+sections should move with depth
+elements should slightly float
+cards should react to cursor
+backgrounds should move slower for depth illusion
+transitions between sections should feel immersive
+==================================================
+HERO SECTION (MOST IMPORTANT)
+
+Create an insane premium hero section.
+
+Layout:
+
+Fullscreen
+Centered profile image
+Interactive 3D environment
+
+IMPORTANT FEATURE:
+Around the profile image, create rotating/floating tech icons orbiting around the image in 3D space.
+
+The icons should smoothly rotate around the profile picture like planets orbiting a sun.
+
+Use animated glowing tech logos:
+
+React
+Node.js
+MongoDB
+Express
+Firebase
+Firestore
+Supabase
+Next.js
+Tailwind CSS
+TypeScript
+GitHub
+
+The orbit animation should:
+
+rotate continuously
+react slightly to mouse movement
+have depth
+include glow effects
+feel futuristic and cinematic
+
+The profile image should:
+
+float slightly
+have glowing animated border
+include depth shadow
+react to mouse movement
+feel premium
+
+Add:
+
+floating particles
+animated rings
+rotating gradients
+light beams
+blur glow layers
+==================================================
+HERO TEXT CONTENT
+
+Main heading:
+“Full Stack Developer”
+
+Subheading:
+“Building scalable and immersive digital experiences with modern technologies.”
+
+Add animated typing text cycling through:
+
+MERN Stack
+Firebase
+Supabase
+React Ecosystem
+Backend APIs
+Modern UI/UX
+
+Add CTA buttons:
+
+View Projects
+Hire Me
+
+Buttons should have:
+
+magnetic hover effect
+glow animations
+smooth transitions
+
+Add social icons:
+
+GitHub
+LinkedIn
+Instagram
+Email
+==================================================
+3D HERO BACKGROUND
+
+Create a full interactive 3D scene behind the hero section.
+
+Ideas:
+
+floating glowing spheres
+wireframe objects
+moving particles
+holographic grid
+futuristic space atmosphere
+animated lighting
+
+The background should subtly react to mouse movement.
+
+==================================================
+ABOUT SECTION
+
+Create layered glassmorphism cards with reveal animations.
+
+Add:
+
+animated text appearance
+floating UI elements
+smooth parallax layers
+
+Content:
+“I create scalable full stack applications with premium UI experiences and modern architectures.”
+
+Add animated stats:
+
+Projects
+Clients
+Technologies
+Experience
+
+Cards should slightly tilt on hover.
+
+==================================================
+TECH STACK SECTION
+
+This section should feel like a futuristic technology showcase.
+
+Create:
+
+floating tech cards
+animated glowing borders
+hover tilt effect
+floating motion
+3D carousel of logos
+
+Use official logos for:
+
+MongoDB
+Express.js
+React.js
+Node.js
+Firebase
+Firestore
+Supabase
+Tailwind CSS
+Next.js
+TypeScript
+GitHub
+
+When hovering:
+
+logos glow
+cards lift in 3D
+background reacts dynamically
+==================================================
+SERVICES SECTION
+
+Create ultra-modern service cards with:
+
+animated icons
+glassmorphism
+hover glow
+depth movement
+gradient lighting
+
+Services:
+
+Full Stack Web Apps
+REST APIs
+Firebase Integration
+Supabase Backend
+Admin Dashboards
+Authentication Systems
+Responsive Frontends
+==================================================
+FEATURED PROJECTS SECTION
+
+Create premium 3D project showcase cards.
+
+Each project card should include:
+
+project image
+animated overlay
+glowing border
+floating motion
+tech stack tags
+live demo button
+GitHub button
+
+Add:
+
+cinematic hover animations
+tilt effects
+smooth reveal on scroll
+layered shadows
+
+Include projects:
+
+CRM System
+Job Finder Platform
+Bus Ticket Booking App
+Hostel Management System
+AI Dashboard
+==================================================
+EXPERIENCE / JOURNEY SECTION
+
+Create a futuristic animated vertical timeline.
+
+Effects:
+
+glowing timeline
+reveal animations
+moving gradient line
+floating cards
+
+Timeline stages:
+
+Learning Development
+Frontend Specialization
+Backend Development
+Freelancing Journey
+Full Stack Expertise
+==================================================
+TESTIMONIALS SECTION
+
+Create floating glassmorphism testimonial cards.
+
+Add:
+
+auto sliding
+subtle depth movement
+animated quotes
+glowing edges
+==================================================
+CONTACT SECTION
+
+Create a futuristic contact area with:
+
+animated form
+glowing input fields
+smooth focus effects
+floating labels
+
+Include:
+
+name
+email
+message
+
+Add:
+
+WhatsApp button
+Email button
+Copy email feature
+
+Make Firebase/Supabase integration-ready.
+
+==================================================
+FOOTER
+
+Create a premium futuristic footer with:
+
+animated gradient top border
+floating glow
+navigation links
+social icons
+copyright
+==================================================
+ANIMATION QUALITY
+
+VERY IMPORTANT:
+Animations must feel:
+
+premium
+smooth
+cinematic
+polished
+natural
+
+No laggy or cheap animations.
+
+==================================================
+CODE QUALITY
+
+Requirements:
+
+reusable components
+modular architecture
+clean code
+comments where needed
+production-ready structure
+SEO friendly
+optimized assets
+lazy loading
+maintainable codebase
+==================================================
+FINAL GOAL
+
+The final portfolio should look like an award-winning modern developer portfolio that instantly impresses clients and recruiters.
+
+The experience should make visitors think:
+“This developer is elite.”
