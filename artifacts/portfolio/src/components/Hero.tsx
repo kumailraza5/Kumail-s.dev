@@ -45,7 +45,7 @@ export function Hero() {
   }, [text, isTyping, currentWord]);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden" id="home">
+    <section className="relative min-h-screen flex items-center justify-center pt-12 md:pt-16 overflow-hidden" id="home">
       <div className="container mx-auto px-6 relative z-10">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
           
@@ -63,7 +63,7 @@ export function Hero() {
             <motion.img
               src={profilePic}
               alt="Kumail Raza"
-              className="relative h-64 md:h-80 lg:h-96 w-auto object-contain drop-shadow-[0_0_35px_rgba(59,130,246,0.45)]"
+              className="relative h-48 sm:h-56 md:h-64 lg:h-80 w-auto object-contain drop-shadow-[0_0_35px_rgba(59,130,246,0.45)]"
               animate={{ y: [0, -10, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
             />
@@ -82,12 +82,12 @@ export function Hero() {
               Kumail <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400">Raza</span>
             </h1>
 
-            <div className="h-9 mb-7 flex items-center justify-center gap-2 text-lg md:text-2xl font-light text-white/75">
+            <div className="h-9 mb-4 md:mb-6 flex items-center justify-center gap-2 text-lg md:text-2xl font-light text-white/75">
               Specializing in <span className="font-semibold text-white">{text}</span>
               <span className="w-[2px] h-7 bg-primary animate-pulse" />
             </div>
 
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-7">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6">
               <a 
                 href="#projects" 
                 className="group relative px-8 py-4 bg-white text-black font-bold rounded-full overflow-hidden transition-all hover:scale-105"
