@@ -62,7 +62,7 @@ export function About() {
               
               <div className="mt-8">
                 <img 
-                  src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=3B82F6&width=435&lines=console.log('Hello+World');;return+true;" 
+                  src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=3B82F6&width=435&lines=console.log('Kumail+Raza');;return+true;" 
                   alt="Typing SVG" 
                   className="opacity-70"
                 />
