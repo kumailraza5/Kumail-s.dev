@@ -1,6 +1,6 @@
 import { Canvas } from '@react-three/fiber';
 import { Stars, Float, Html } from '@react-three/drei';
-import { useRef, useMemo } from 'react';
+import { useRef, useMemo, useState, useEffect } from 'react';
 import * as THREE from 'three';
 import { useFrame } from '@react-three/fiber';
 
@@ -157,8 +157,7 @@ function TechOrbit() {
                     width: 56,
                     height: 56,
                     borderRadius: '50%',
-                    background: tech.bg,
-                    backdropFilter: 'blur(12px)',
+                    background: 'rgba(10, 10, 12, 0.85)',
                     border: `1.5px solid ${tech.border}`,
                     boxShadow: tech.shadow,
                     display: 'flex',
@@ -209,8 +208,7 @@ function TechOrbit() {
                     width: 52,
                     height: 52,
                     borderRadius: '50%',
-                    background: tech.bg,
-                    backdropFilter: 'blur(12px)',
+                    background: 'rgba(10, 10, 12, 0.85)',
                     border: `1.5px solid ${tech.border}`,
                     boxShadow: tech.shadow,
                     display: 'flex',
@@ -248,6 +246,28 @@ function TechOrbit() {
 }
 
 export default function Hero3D() {
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    const el = document.getElementById('home');
+    if (!el) return;
+
+    const observer = new IntersectionObserver(([entry]) => {
+      setIsVisible(entry.isIntersecting);
+    }, {
+      rootMargin: '100px', // start loading slightly before scrolling back into view
+      threshold: 0.01 // trigger as soon as 1px is visible
+    });
+
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  if (!isVisible) {
+    // Return empty placeholder div to unmount the canvas when scrolled off-screen
+    return <div className="w-full h-full bg-[#030014]" />;
+  }
+
   return (
     <div className="w-full h-full">
       <Canvas camera={{ position: [0, 0, 8], fov: 50 }}>

@@ -62,9 +62,6 @@ function App() {
       
       {isLoading && <LoadingScreen onComplete={() => setIsLoading(false)} />}
 
-      {/* Noise Overlay */}
-      <div className="noise-overlay" />
-
       {/* Progress Bar */}
       <div 
         id="scroll-progress" 

@@ -87,6 +87,11 @@ function FeaturedCard({ project, i }: { project: typeof projects[0]; i: number }
   useEffect(() => {
     const card = cardRef.current;
     if (!card) return;
+
+    // Disable 3D tilt effects on mobile/touch screens to avoid weird tapping and scrolling glitches
+    const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+    if (isTouch || window.innerWidth <= 768) return;
+
     const onMove = (e: MouseEvent) => {
       const rect = card.getBoundingClientRect();
       const rotateX = ((e.clientY - rect.top) / rect.height - 0.5) * -8;
@@ -192,6 +197,11 @@ function GridCard({ project, i }: { project: typeof projects[0]; i: number }) {
   useEffect(() => {
     const card = cardRef.current;
     if (!card) return;
+
+    // Disable 3D tilt effects on mobile/touch screens to avoid weird tapping and scrolling glitches
+    const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+    if (isTouch || window.innerWidth <= 768) return;
+
     const onMove = (e: MouseEvent) => {
       const rect = card.getBoundingClientRect();
       const rotateX = ((e.clientY - rect.top) / rect.height - 0.5) * -12;
