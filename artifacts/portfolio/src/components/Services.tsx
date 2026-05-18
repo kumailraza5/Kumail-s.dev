@@ -42,7 +42,10 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services" className="py-32 relative">
+    <section id="services" className="py-32 relative overflow-hidden">
+      {/* Ambient Glow */}
+      <div className="absolute top-1/2 right-[-10%] -translate-y-1/2 w-[350px] md:w-[600px] h-[350px] md:h-[600px] bg-cyan-600/10 rounded-full blur-[100px] md:blur-[140px] pointer-events-none" />
+
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-900/5 to-transparent pointer-events-none" />
       
       <div className="container mx-auto px-6 relative z-10">

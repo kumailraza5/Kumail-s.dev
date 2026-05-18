@@ -24,7 +24,10 @@ const experiences = [
 
 export function Experience() {
   return (
-    <section id="experience" className="py-32 relative">
+    <section id="experience" className="py-32 relative overflow-hidden">
+      {/* Ambient Glow */}
+      <div className="absolute top-1/2 left-[-10%] -translate-y-1/2 w-[350px] md:w-[600px] h-[350px] md:h-[600px] bg-indigo-600/10 rounded-full blur-[100px] md:blur-[140px] pointer-events-none" />
+
       <div className="container mx-auto px-6 max-w-4xl">
         <div className="text-center mb-20">
           <h2 className="text-3xl md:text-5xl font-black mb-4">Journey</h2>

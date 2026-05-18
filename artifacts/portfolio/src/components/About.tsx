@@ -30,7 +30,10 @@ export function About() {
   }, [isInView]);
 
   return (
-    <section id="about" className="py-16 md:py-32 relative">
+    <section id="about" className="py-16 md:py-32 relative overflow-hidden">
+      {/* Ambient Glow */}
+      <div className="absolute top-1/2 left-[-10%] -translate-y-1/2 w-[350px] md:w-[600px] h-[350px] md:h-[600px] bg-blue-600/10 rounded-full blur-[100px] md:blur-[140px] pointer-events-none" />
+
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           

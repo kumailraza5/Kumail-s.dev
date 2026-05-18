@@ -58,6 +58,9 @@ const technologies: { name: string; img: string; color: string; invert?: boolean
 export function TechStack() {
   return (
     <section id="tech" className="py-24 relative overflow-hidden">
+      {/* Ambient Glow */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] md:w-[600px] h-[350px] md:h-[600px] bg-purple-600/10 rounded-full blur-[100px] md:blur-[140px] pointer-events-none" />
+
       <div className="container mx-auto px-6 mb-16 text-center">
         <h2 className="text-3xl md:text-5xl font-black mb-4">Core Arsenal</h2>
         <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full" />

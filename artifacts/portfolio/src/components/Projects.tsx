@@ -294,7 +294,11 @@ function GridCard({ project, i }: { project: typeof projects[0]; i: number }) {
 
 export function Projects() {
   return (
-    <section id="projects" className="py-20 md:py-32 relative z-10 bg-[#0d0d0f]">
+    <section id="projects" className="py-20 md:py-32 relative z-10 bg-[#0d0d0f] overflow-hidden">
+      {/* Ambient Glows */}
+      <div className="absolute top-1/4 left-[-10%] w-[350px] md:w-[600px] h-[350px] md:h-[600px] bg-blue-600/5 rounded-full blur-[100px] md:blur-[140px] pointer-events-none" />
+      <div className="absolute bottom-1/4 right-[-10%] w-[350px] md:w-[600px] h-[350px] md:h-[600px] bg-purple-600/5 rounded-full blur-[100px] md:blur-[140px] pointer-events-none" />
+
       <div className="container mx-auto px-4 sm:px-6">
 
         {/* Header */}
