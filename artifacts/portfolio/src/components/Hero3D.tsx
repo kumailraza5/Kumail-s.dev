@@ -265,7 +265,7 @@ export default function Hero3D() {
 
   if (!isVisible) {
     // Return empty placeholder div to unmount the canvas when scrolled off-screen
-    return <div className="w-full h-full bg-[#030014]" />;
+    return <div className="w-full h-full bg-[#0d0d0f]" />;
   }
 
   return (
