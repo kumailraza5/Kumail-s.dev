@@ -9,7 +9,7 @@ const experiences = [
   },
 
   {
-    year: '203 - 2024',
+    year: '2023 - 2024',
     title: 'Backend Java Developer',
     company: 'Fiesta Consultants',
     description: 'Designed and implemented RESTful APIs using Java Spring Boot, Hibernate and  handled database optimization and server deployment.'
