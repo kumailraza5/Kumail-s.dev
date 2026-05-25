@@ -11,6 +11,17 @@ import imgSalon from '@assets/salonn_1778343304808.jpg';
 
 const projects = [
   {
+    title: 'CRM Lead Manager',
+    description: 'A comprehensive CRM platform tailored for managing leads from LinkedIn clients. Features an intuitive dashboard, lead tracking, and organized client management tools.',
+    tags: ['React', 'TypeScript', 'Tailwind CSS', 'CRM'],
+    image: '/crm.png',
+    accent: 'from-cyan-400 to-blue-600',
+    accentShadow: 'rgba(34,211,238,0.25)',
+    github: 'https://github.com/kumailraza5/CRM',
+    live: 'https://lead-manager-pro.onrender.com/',
+    number: '01',
+  },
+  {
     title: 'USP OBE System',
     description: 'Full-stack Outcome-Based Education system built with React (TypeScript), Node.js, Tailwind CSS, and Supabase. Manages students, courses, CLOs/PLOs, and assessments while tracking learning outcomes through data-driven dashboards.',
     tags: ['React', 'TypeScript', 'Node.js', 'Supabase', 'Tailwind CSS'],
@@ -19,7 +30,7 @@ const projects = [
     accentShadow: 'rgba(59,130,246,0.25)',
     github: 'https://github.com/kumailraza5/OBE-System',
     live: 'https://obe-system-w2wd.onrender.com/',
-    number: '01',
+    number: '02',
   },
   {
     title: 'Aurevo Store',
@@ -30,7 +41,7 @@ const projects = [
     accentShadow: 'rgba(52,211,153,0.25)',
     github: 'https://github.com/kumailraza5/Aurevo.store',
     live: 'https://aurevostore.pk/',
-    number: '02',
+    number: '03',
   },
   {
     title: 'Elite Motors',
@@ -41,7 +52,7 @@ const projects = [
     accentShadow: 'rgba(249,115,22,0.25)',
     github: 'https://github.com/kumailraza5/carshowroom_UI',
     live: 'https://carshowroom-ws42.onrender.com/',
-    number: '03',
+    number: '04',
   },
   {
     title: 'Salon Web App',
@@ -52,7 +63,7 @@ const projects = [
     accentShadow: 'rgba(244,114,182,0.25)',
     github: 'https://github.com/kumailraza5/Saloon_Web_UI',
     live: 'https://saloon-app-kiic.onrender.com/',
-    number: '04',
+    number: '05',
   },
   {
     title: 'Bakery UI – Pink',
@@ -63,7 +74,7 @@ const projects = [
     accentShadow: 'rgba(232,121,249,0.25)',
     github: 'https://github.com/kumailraza5/Bakery_APP_Pink',
     live: 'https://bakery-app-ui-pinktheme-1.onrender.com/',
-    number: '05',
+    number: '06',
   },
   {
     title: 'Bakery UI – Purple',
@@ -74,7 +85,7 @@ const projects = [
     accentShadow: 'rgba(139,92,246,0.25)',
     github: 'https://github.com/kumailraza5/Bakery_APP_Purple',
     live: 'https://bakery-app-ui-purpletheme.onrender.com/',
-    number: '06',
+    number: '07',
   },
 ];
 
