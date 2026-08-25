@@ -14,7 +14,7 @@ const projects = [
     title: 'Real Estate Automation Agent',
     description: 'A modern, high-performance Real Estate CRM & Automation Platform. Features an AI-powered pipeline dashboard, lead management, workflow automation, property tracking, and analytics — built with React, TypeScript, Express, Drizzle ORM, and Supabase / PostgreSQL.',
     tags: ['React', 'TypeScript', 'Express', 'Drizzle ORM', 'Supabase', 'PostgreSQL'],
-    image: '/real_estate.jpg',
+    image: '/realestate.png',
     accent: 'from-amber-400 to-orange-600',
     accentShadow: 'rgba(251,191,36,0.25)',
     github: 'https://github.com/kumailraza5/Real-Estate-Automation-Agent',
