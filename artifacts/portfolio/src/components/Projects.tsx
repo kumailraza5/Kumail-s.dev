@@ -11,6 +11,17 @@ import imgSalon from '@assets/salonn_1778343304808.jpg';
 
 const projects = [
   {
+    title: 'Real Estate Automation Agent',
+    description: 'A modern, high-performance Real Estate CRM & Automation Platform. Features an AI-powered pipeline dashboard, lead management, workflow automation, property tracking, and analytics — built with React, TypeScript, Express, Drizzle ORM, and Supabase / PostgreSQL.',
+    tags: ['React', 'TypeScript', 'Express', 'Drizzle ORM', 'Supabase', 'PostgreSQL'],
+    image: '/real_estate.jpg',
+    accent: 'from-amber-400 to-orange-600',
+    accentShadow: 'rgba(251,191,36,0.25)',
+    github: 'https://github.com/kumailraza5/Real-Estate-Automation-Agent',
+    live: 'https://real-estate-automation-agent.onrender.com/',
+    number: '01',
+  },
+  {
     title: 'CRM Lead Manager',
     description: 'A comprehensive CRM platform tailored for managing leads from LinkedIn clients. Features an intuitive dashboard, lead tracking, and organized client management tools.',
     tags: ['React', 'TypeScript', 'Tailwind CSS', 'CRM'],
@@ -19,7 +30,7 @@ const projects = [
     accentShadow: 'rgba(34,211,238,0.25)',
     github: 'https://github.com/kumailraza5/CRM',
     live: 'https://lead-manager-pro.onrender.com/',
-    number: '01',
+    number: '02',
   },
   {
     title: 'USP OBE System',
@@ -30,7 +41,7 @@ const projects = [
     accentShadow: 'rgba(59,130,246,0.25)',
     github: 'https://github.com/kumailraza5/OBE-System',
     live: 'https://obe-system-w2wd.onrender.com/',
-    number: '02',
+    number: '03',
   },
   {
     title: 'Aurevo Store',
@@ -41,7 +52,7 @@ const projects = [
     accentShadow: 'rgba(52,211,153,0.25)',
     github: 'https://github.com/kumailraza5/Aurevo.store',
     live: 'https://aurevostore.pk/',
-    number: '03',
+    number: '04',
   },
   {
     title: 'Elite Motors',
@@ -52,7 +63,7 @@ const projects = [
     accentShadow: 'rgba(249,115,22,0.25)',
     github: 'https://github.com/kumailraza5/carshowroom_UI',
     live: 'https://carshowroom-ws42.onrender.com/',
-    number: '04',
+    number: '05',
   },
   {
     title: 'Salon Web App',
@@ -63,7 +74,7 @@ const projects = [
     accentShadow: 'rgba(244,114,182,0.25)',
     github: 'https://github.com/kumailraza5/Saloon_Web_UI',
     live: 'https://saloon-app-kiic.onrender.com/',
-    number: '05',
+    number: '06',
   },
   {
     title: 'Bakery UI – Pink',
@@ -74,7 +85,7 @@ const projects = [
     accentShadow: 'rgba(232,121,249,0.25)',
     github: 'https://github.com/kumailraza5/Bakery_APP_Pink',
     live: 'https://bakery-app-ui-pinktheme-1.onrender.com/',
-    number: '06',
+    number: '07',
   },
   {
     title: 'Bakery UI – Purple',
@@ -85,7 +96,7 @@ const projects = [
     accentShadow: 'rgba(139,92,246,0.25)',
     github: 'https://github.com/kumailraza5/Bakery_APP_Purple',
     live: 'https://bakery-app-ui-purpletheme.onrender.com/',
-    number: '07',
+    number: '08',
   },
 ];
 
